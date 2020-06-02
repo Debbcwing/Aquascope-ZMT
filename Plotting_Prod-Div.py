@@ -16,7 +16,7 @@ Ynum = 10  # no. of modeling year
 nut_rgm = [1, 15, 50]  # µmol NL-1
 
 # Import NetCDF data (These are the only dataset for the results)
-os.chdir('/Users/szewing/Desktop/PhD_work/SizeMod/Results/StdRun/')
+os.chdir('wd')
 out1 = netCDF4.Dataset('StdRun1.nc')
 out15 = netCDF4.Dataset('StdRun15.nc')
 out50 = netCDF4.Dataset('StdRun50.nc')
